@@ -1,0 +1,3449 @@
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+   Error 
+
+  Class 'Redis' not found
+
+  at /home/shuvo/learning/queue/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:75
+     71▕      * @throws \LogicException
+     72▕      */
+     73▕     protected function createClient(array $config)
+     74▕     {
+  ➜  75▕         return tap(new Redis, function ($client) use ($config) {
+     76▕             if ($client instanceof RedisFacade) {
+     77▕                 throw new LogicException(
+     78▕                     extension_loaded('redis')
+     79▕                         ? 'Please remove or rename the Redis facade alias in your "app" configuration file in order to avoid collision with the PHP Redis extension.'
+
+  • A class import is missing: You have a missing class import. Try importing this class: `Illuminate\Support\Facades\Redis`. 
+
+      [2m+21 vendor frames [22m
+  22  /home/shuvo/learning/queue/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+Horizon started successfully.
+[2021-07-28 04:51:06][e2d4c7da-f20c-47df-8099-4cfbe2e77558] Processing: App\Jobs\SendEmailJob
+[2021-07-28 04:51:06][15b96e58-870d-4574-a85c-e532a9a63dcf] Processing: App\Jobs\SendEmailJob
+[2021-07-28 04:51:09][21d10035-100f-4a90-9b0c-f23ef7dda32e] Processing: App\Jobs\SendEmailJob
+[2021-07-28 04:51:10][e2d4c7da-f20c-47df-8099-4cfbe2e77558] Failed:     App\Jobs\SendEmailJob
+[2021-07-28 04:51:10][b414c04d-3100-49cb-8797-5e3f9aaccc7c] Processing: App\Jobs\SendEmailJob
+[2021-07-28 04:51:12][15b96e58-870d-4574-a85c-e532a9a63dcf] Failed:     App\Jobs\SendEmailJob
+[2021-07-28 04:51:12][0b11aae4-2bc1-4ab1-8587-df93ff0d8d59] Processing: App\Jobs\SendEmailJob
+[2021-07-28 04:51:12][0b11aae4-2bc1-4ab1-8587-df93ff0d8d59] Failed:     App\Jobs\SendEmailJob
+[2021-07-28 04:51:15][4d26c25b-3230-436d-9ed9-a69d98fc60f6] Processing: App\Jobs\SendEmailJob
+[2021-07-28 04:51:15][4d26c25b-3230-436d-9ed9-a69d98fc60f6] Failed:     App\Jobs\SendEmailJob
+[2021-07-28 04:51:15][b414c04d-3100-49cb-8797-5e3f9aaccc7c] Failed:     App\Jobs\SendEmailJob
+[2021-07-28 04:51:16][21d10035-100f-4a90-9b0c-f23ef7dda32e] Failed:     App\Jobs\SendEmailJob
+Horizon started successfully.
+[2021-07-28 05:01:22][24da0560-85e6-49e3-b8ee-7bd82acc0dd6] Processing: App\Jobs\SendEmailJob
+[2021-07-28 05:01:23][a99e8b94-493d-4404-8915-1af87fa5ddaa] Processing: App\Jobs\SendEmailJob
+[2021-07-28 05:01:28][24da0560-85e6-49e3-b8ee-7bd82acc0dd6] Processed:  App\Jobs\SendEmailJob
+[2021-07-28 05:01:28][a99e8b94-493d-4404-8915-1af87fa5ddaa] Processed:  App\Jobs\SendEmailJob
+[2021-07-28 05:01:58][106c8206-dbc6-4b9d-b672-4e656be67c70] Processing: App\Jobs\SendEmailJob
+[2021-07-28 05:01:59][b538a7ea-14a6-48c0-bc2c-29ebc45659ab] Processing: App\Jobs\SendEmailJob
+[2021-07-28 05:02:03][106c8206-dbc6-4b9d-b672-4e656be67c70] Processed:  App\Jobs\SendEmailJob
+[2021-07-28 05:02:05][b538a7ea-14a6-48c0-bc2c-29ebc45659ab] Processed:  App\Jobs\SendEmailJob
+[2021-07-28 05:02:11][24f14384-a802-44a7-9274-e964cad3ee7a] Processing: App\Jobs\SendEmailJob
+[2021-07-28 05:02:14][9fbb5b2a-4e84-4c11-aed0-039bdc0b542c] Processing: App\Jobs\SendEmailJob
+[2021-07-28 05:02:16][24f14384-a802-44a7-9274-e964cad3ee7a] Processed:  App\Jobs\SendEmailJob
+[2021-07-28 05:02:16][310039a5-12ad-45ed-b95d-2724f55280ed] Processing: App\Jobs\SendEmailJob
+[2021-07-28 05:02:17][0047f511-a018-4193-8595-ca6051332d82] Processing: App\Jobs\SendEmailJob
+[2021-07-28 05:02:18][9fbb5b2a-4e84-4c11-aed0-039bdc0b542c] Failed:     App\Jobs\SendEmailJob
+[2021-07-28 05:02:22][310039a5-12ad-45ed-b95d-2724f55280ed] Failed:     App\Jobs\SendEmailJob
+[2021-07-28 05:02:22][0047f511-a018-4193-8595-ca6051332d82] Failed:     App\Jobs\SendEmailJob
+[2021-07-28 05:02:55][101be0a4-9783-45c3-9975-9dd295703688] Processing: App\Jobs\SendEmailJob
+[2021-07-28 05:03:00][101be0a4-9783-45c3-9975-9dd295703688] Failed:     App\Jobs\SendEmailJob
+[2021-07-28 05:03:17][7a553393-7a08-47f5-b4aa-9bc237789a05] Processing: App\Jobs\SendEmailJob
+[2021-07-28 05:03:23][7a553393-7a08-47f5-b4aa-9bc237789a05] Processed:  App\Jobs\SendEmailJob
+[2021-07-28 05:03:59][65157936-e922-455a-81d8-05261e11a663] Processing: App\Jobs\SendEmailJob
+[2021-07-28 05:03:59][2b88d065-d629-4e9d-a4fe-7915394ad9e3] Processing: App\Jobs\SendEmailJob
+[2021-07-28 05:04:02][5ace19ed-4361-4480-86d1-f3b7a112b0ce] Processing: App\Jobs\SendEmailJob
+[2021-07-28 05:04:04][2b88d065-d629-4e9d-a4fe-7915394ad9e3] Failed:     App\Jobs\SendEmailJob
+[2021-07-28 05:04:04][4ef928c2-183d-43bc-893c-3a83e97981a1] Processing: App\Jobs\SendEmailJob
+[2021-07-28 05:04:04][65157936-e922-455a-81d8-05261e11a663] Processed:  App\Jobs\SendEmailJob
+[2021-07-28 05:04:04][5b5c78fc-c972-4f3b-9ef5-97e84a4fc6d2] Processing: App\Jobs\SendEmailJob
+[2021-07-28 05:04:04][5b5c78fc-c972-4f3b-9ef5-97e84a4fc6d2] Failed:     App\Jobs\SendEmailJob
+[2021-07-28 05:04:04][67410e3d-d1c7-488e-be8b-17bab5031b93] Processing: App\Jobs\SendEmailJob
+[2021-07-28 05:04:04][67410e3d-d1c7-488e-be8b-17bab5031b93] Failed:     App\Jobs\SendEmailJob
+[2021-07-28 05:04:06][5ace19ed-4361-4480-86d1-f3b7a112b0ce] Failed:     App\Jobs\SendEmailJob
+[2021-07-28 05:04:08][4ef928c2-183d-43bc-893c-3a83e97981a1] Failed:     App\Jobs\SendEmailJob
+[2021-07-28 05:06:10][dfcb091f-a65b-4a5f-9d99-0de57917ffd6] Processing: App\Jobs\SendEmailJob
+[2021-07-28 05:06:15][dfcb091f-a65b-4a5f-9d99-0de57917ffd6] Processed:  App\Jobs\SendEmailJob
+[2021-07-28 05:06:51][2b79f438-8a33-4343-ae4a-e36972ccc6e5] Processing: App\Jobs\SendEmailJob
+[2021-07-28 05:06:58][2b79f438-8a33-4343-ae4a-e36972ccc6e5] Processed:  App\Jobs\SendEmailJob
+[2021-07-28 05:07:07][36bb645a-24ca-47fb-8f1f-4bba7794a594] Processing: App\Jobs\SendEmailJob
+[2021-07-28 05:07:08][fe27f34b-ca63-46ae-b957-3a270dc2832c] Processing: App\Jobs\SendEmailJob
+[2021-07-28 05:07:13][36bb645a-24ca-47fb-8f1f-4bba7794a594] Processed:  App\Jobs\SendEmailJob
+[2021-07-28 05:07:13][fe27f34b-ca63-46ae-b957-3a270dc2832c] Processed:  App\Jobs\SendEmailJob
+[2021-07-28 05:08:43][671ba430-03ba-4507-8983-030cb63a79d1] Processing: App\Jobs\SendEmailJob
+[2021-07-28 05:08:44][d6a24dff-2894-4bcd-867f-855b3f0d3cd3] Processing: App\Jobs\SendEmailJob
+[2021-07-28 05:08:49][d6a24dff-2894-4bcd-867f-855b3f0d3cd3] Failed:     App\Jobs\SendEmailJob
+[2021-07-28 05:08:49][671ba430-03ba-4507-8983-030cb63a79d1] Failed:     App\Jobs\SendEmailJob
+[2021-07-28 05:09:37][be2ed5f7-185a-41a2-85f1-1aacc205c650] Processing: App\Jobs\SendEmailJob
+[2021-07-28 05:09:38][91ff1664-92c9-413a-b359-97cb0bd3f4ee] Processing: App\Jobs\SendEmailJob
+[2021-07-28 05:09:42][be2ed5f7-185a-41a2-85f1-1aacc205c650] Failed:     App\Jobs\SendEmailJob
+[2021-07-28 05:09:44][91ff1664-92c9-413a-b359-97cb0bd3f4ee] Failed:     App\Jobs\SendEmailJob
+[2021-07-28 05:10:02][86cc82d1-6d93-4ab7-b12b-299d9cc3a7a0] Processing: App\Jobs\SendEmailJob
+[2021-07-28 05:10:03][d0bce271-874e-4def-b253-ce34d7cd520f] Processing: App\Jobs\SendEmailJob
+[2021-07-28 05:10:07][86cc82d1-6d93-4ab7-b12b-299d9cc3a7a0] Processed:  App\Jobs\SendEmailJob
+[2021-07-28 05:10:08][d0bce271-874e-4def-b253-ce34d7cd520f] Processed:  App\Jobs\SendEmailJob
+[2021-07-28 05:10:29][12e33775-addc-4aa0-a5a9-d668319dcecf] Processing: App\Jobs\SendEmailJob
+[2021-07-28 05:10:30][d8ef0bd2-a83d-4e62-b6e9-926a615c6a1f] Processing: App\Jobs\SendEmailJob
+[2021-07-28 05:10:34][12e33775-addc-4aa0-a5a9-d668319dcecf] Processed:  App\Jobs\SendEmailJob
+[2021-07-28 05:10:35][d8ef0bd2-a83d-4e62-b6e9-926a615c6a1f] Processed:  App\Jobs\SendEmailJob
+Horizon started successfully.
+Horizon started successfully.
+Horizon started successfully.
+Horizon started successfully.
+Horizon started successfully.
+Horizon started successfully.
+Horizon started successfully.
+Horizon started successfully.
+Horizon started successfully.
+[2021-07-28 05:22:16][2180e023-14fb-46be-bd23-fbbff0f64ee8] Processing: App\Jobs\SendEmailJob
+[2021-07-28 05:22:21][2180e023-14fb-46be-bd23-fbbff0f64ee8] Processed:  App\Jobs\SendEmailJob
+[2021-07-28 05:22:21][d30ae4fd-a31d-4fbd-8230-1058d0ef991c] Processing: App\Jobs\SendEmailJob
+[2021-07-28 05:22:25][d30ae4fd-a31d-4fbd-8230-1058d0ef991c] Failed:     App\Jobs\SendEmailJob
+[2021-07-28 05:25:25][40136d72-97c1-44fa-9435-5ac2d764db20] Processing: App\Jobs\SendEmailJob
+[2021-07-28 05:25:32][40136d72-97c1-44fa-9435-5ac2d764db20] Processed:  App\Jobs\SendEmailJob
+[2021-07-28 05:25:50][34786b1b-bb18-478f-b063-953c965ce85d] Processing: App\Jobs\SendEmailJob
+[2021-07-28 05:25:55][34786b1b-bb18-478f-b063-953c965ce85d] Processed:  App\Jobs\SendEmailJob
+[2021-07-28 05:34:38][55e6c041-ff57-4809-831b-3f3ca170eb07] Processing: App\Jobs\SendEmailJob
+[2021-07-28 05:34:43][55e6c041-ff57-4809-831b-3f3ca170eb07] Processed:  App\Jobs\SendEmailJob
