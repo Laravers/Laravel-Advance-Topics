@@ -24,7 +24,11 @@ class CsvProcess implements ShouldQueue
     public function handle()
     {
         foreach ($this->data as $user) {
-            User::create($user);
+            User::create([
+                'name'     => $user[0],
+                'email'    => $user[1],
+                'password' => $user[2],
+            ]);
         }
     }
 }
