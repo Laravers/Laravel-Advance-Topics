@@ -3447,3 +3447,27 @@ Horizon started successfully.
 [2021-07-28 05:25:55][34786b1b-bb18-478f-b063-953c965ce85d] Processed:  App\Jobs\SendEmailJob
 [2021-07-28 05:34:38][55e6c041-ff57-4809-831b-3f3ca170eb07] Processing: App\Jobs\SendEmailJob
 [2021-07-28 05:34:43][55e6c041-ff57-4809-831b-3f3ca170eb07] Processed:  App\Jobs\SendEmailJob
+Horizon started successfully.
+Horizon started successfully.
+Horizon started successfully.
+Horizon started successfully.
+Horizon started successfully.
+Horizon started successfully.
+[2021-07-28 17:43:42][b8fa62ff-b630-48d2-a06a-3bfdbb20c210] Processing: App\Jobs\CsvProcess
+[2021-07-28 17:43:42][b8fa62ff-b630-48d2-a06a-3bfdbb20c210] Processed:  App\Jobs\CsvProcess
+[2021-07-28 18:00:53][755776e8-c64b-4b9f-8453-3ceaee955281] Processing: App\Jobs\CsvProcess
+[2021-07-28 18:00:53][755776e8-c64b-4b9f-8453-3ceaee955281] Processed:  App\Jobs\CsvProcess
+[2021-07-28 18:01:26][21b66c6a-7683-424d-9fc6-eb2dec00e177] Processing: App\Jobs\CsvProcess
+[2021-07-28 18:01:26][21b66c6a-7683-424d-9fc6-eb2dec00e177] Failed:     App\Jobs\CsvProcess
+[2021-07-28 18:05:05][fd07dcaf-94a9-4851-8a77-c7f427f41cd3] Processing: App\Jobs\CsvProcess
+[2021-07-28 18:05:05][fd07dcaf-94a9-4851-8a77-c7f427f41cd3] Processed:  App\Jobs\CsvProcess
+[2021-07-28 18:51:43][223414e8-41c6-4fe1-8479-4e87be7116e3] Processing: App\Jobs\CsvProcess
+[2021-07-28 18:51:48][223414e8-41c6-4fe1-8479-4e87be7116e3] Processed:  App\Jobs\CsvProcess
+[2021-07-28 19:09:07][0a8de2e2-9983-4be1-b59f-fb61e8b7ca0a] Processing: App\Jobs\CsvProcess
+[2021-07-28 19:09:11][0a8de2e2-9983-4be1-b59f-fb61e8b7ca0a] Processed:  App\Jobs\CsvProcess
+[2021-07-28 19:14:54][d42d894e-b8f6-443d-9e9a-e490155de85d] Processing: App\Jobs\CsvProcess
+[2021-07-28 19:14:59][d42d894e-b8f6-443d-9e9a-e490155de85d] Processed:  App\Jobs\CsvProcess
+[2021-07-28 19:15:18][df4eff26-0143-4481-a95a-785c8eb78890] Processing: App\Jobs\CsvProcess
+[2021-07-28 19:15:18][df4eff26-0143-4481-a95a-785c8eb78890] Failed:     App\Jobs\CsvProcess
+[2021-07-28 19:15:45][49f6a7ed-d1ea-41e8-a8e1-310e316967c3] Processing: App\Jobs\CsvProcess
+[2021-07-28 19:15:50][49f6a7ed-d1ea-41e8-a8e1-310e316967c3] Processed:  App\Jobs\CsvProcess

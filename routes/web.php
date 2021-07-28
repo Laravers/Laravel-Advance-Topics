@@ -1,8 +1,7 @@
 <?php
 
+use App\Http\Controllers\CsvUploadController;
 use App\Jobs\SendEmailJob;
-use App\Models\User;
-use App\Notifications\TestMail;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -17,13 +16,19 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    SendEmailJob::dispatch();
-
     return view('welcome');
-});
+})->name('home');
+
+Route::get('/send', function () {
+    SendEmailJob::dispatch();
+    return redirect()->route('home');
+})->name('send.mail');
+
+Route::get('/csv-upload', [CsvUploadController::class, 'upload'])->name('csv.upload');
+Route::post('/csv-upload', [CsvUploadController::class, 'store'])->name('csv.store');
 
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth'])->name('dashboard');
 
-require __DIR__.'/auth.php';
+require __DIR__ . '/auth.php';
