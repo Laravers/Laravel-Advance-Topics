@@ -3,23 +3,33 @@
 namespace App\Http\Controllers;
 
 use App\Jobs\CsvProcess;
-use App\Models\User;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Storage;
+use Illuminate\Support\Facades\Bus;
 
 class CsvUploadController extends Controller
 {
     public function upload()
     {
-        return view('csv-upload');
+        $batch = null;
+        if(request('batch')) {
+            $batch = Bus::findBatch(request('batch'));
+        }
+
+        return view('csv-upload', compact('batch'));
     }
 
     public function store(Request $request)
     {
         $data = array_map('str_getcsv', file($request->file('csv')->getRealPath()));
         unset($data[0]);
-        CsvProcess::dispatch($data);
+        $chunked = array_chunk($data, 100);
 
-        return redirect()->back()->with('success', 'CSV file uploaded successfully');
+        $jobs = [];
+        foreach ($chunked as $chunk) {
+            $jobs[] = new CsvProcess($chunk);
+        }
+        $batch = Bus::batch($jobs)->dispatch();
+
+        return redirect('/csv-upload?batch='. $batch->id);
     }
 }
