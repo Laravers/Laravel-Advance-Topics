@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\CsvUploadController;
+use App\Http\Controllers\OrderController;
 use App\Jobs\SendEmailJob;
 use Illuminate\Support\Facades\Route;
 
@@ -18,6 +19,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 })->name('home');
+
+Route::resource('order', OrderController::class);
 
 Route::get('/send', function () {
     SendEmailJob::dispatch();
