@@ -35,7 +35,10 @@
       <button type="submit" class="btn btn-primary">upload</button>
     </form>
 
-    @if(isset($batch))
+    @if (isset($batch))
+      @if ($batch->finished())
+        <p>CSV file has been processed.</p>
+      @endif
       {{ $batch->progress() . '%' }} <br>
       {{ 'Total jobs: ' . $batch->totalJobs }} <br>
       {{ 'Failed jobs: ' . $batch->failedJobs }} <br>
@@ -47,7 +50,7 @@
     <script>
       setInterval(function() {
         window.location.reload();
-      }, 500);
+      }, 1000);
     </script>
   @endif
 </body>
